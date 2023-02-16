@@ -1,2 +1,15 @@
 site_name: 2021级1班の沙雕Wiki
-theme: readthedocs
+theme: 
+  name: 'readthedocs'
+  palette:
+    scheme: slate
+    primary: indigo
+    accent: cyan
+site_url: https://Class1.github.io
+markdown_extensions:
+  - admonition
+  - pymdownx.details
+  - pymdownx.superfences
+  - footnotes
+plugiins:
+  - search
