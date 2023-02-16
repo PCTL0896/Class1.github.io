@@ -27,13 +27,9 @@ markdown的书写是较为简单的。下面给出一些范例：
 
 ```
 <del>delete me<del/>
-或
-~~delete me~~
 ```
 
 <del>delete me<del/>
-
-~~delete me~~
 
 **加粗**：
 
@@ -60,6 +56,8 @@ markdown的书写是较为简单的。下面给出一些范例：
 <u>Underline</u>
 
 **使用admonition**：
+
+> 目前暂时失效
 
 ```
 !!! note
@@ -143,9 +141,8 @@ note可替换为(attention, caution, danger, error, hint,
 !!! warning
     this is a tip
 
-
 更多的效果可以通过HTML的语法实现，这些请自己尝试吧 xd
 
-~~<sup>其实最简单的办法是搞到一个好用的Markdown编辑器</sup>~~
+<del><sup>其实最简单的办法是搞到一个好用的Markdown编辑器</sup></del>
 
 <sup>最简单的办法当然是随便用什么写然后发给我们</sup>
