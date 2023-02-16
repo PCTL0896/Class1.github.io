@@ -87,7 +87,7 @@
             <div class="section" itemprop="articleBody">
               
                 <p>这篇文档经过了完全的重写</p>
-<p>~~<sup>毕竟上一代是三年前的</sup>~~</p>
+<p><del><sup>毕竟上一代是三年前的</sup></del></p>
 <h2 id="kit">最简单的方法：编写好后把文档传给KIT</h2>
 <h1 id="_1">准备工作</h1>
 <ul>
@@ -117,7 +117,7 @@
 <h1 id="_3">二、拉取模板</h1>
 <p>加入组织后，请回到本地，找到一个你喜欢的文件夹，右键单击，打开<em>Git Bash</em></p>
 <p>输入以下指令：</p>
-<pre><code>git clone https://github.com/9-4wiki/9-4wiki.github.io.git
+<pre><code>git clone git@github.com:PCTL0896/Class1.github.io.git
 </code></pre>
 <p>然后你就将拉取到我们的模板</p>
 <h1 id="_4">三、同步</h1>
@@ -125,7 +125,7 @@
 <p>在第二次编辑之前，<u><strong>请确保您同步了</strong></u>其他作者的文档以免存储出现混乱。</p>
 <p>只需运行<em>sync.bat</em>可。</p>
 <h1 id="_6">四、编写文档</h1>
-<p>文档储存在/docs/中，可以存放在不同的文件夹中。</p>
+<p>文档储存在/docs中，存放在不同的子文件夹中可以得到新的目录</p>
 <p>如果你对任何效果有疑问，不妨试一试！
 在目录中打开<em>Git Bash</em>运行<code>mkdocs serve</code>
 然后在本地观看你的文档效果！</p>
@@ -135,12 +135,11 @@
 <p>如果<em>install.bat</em>执行错误，请打开命令提示行（Win+R, 输入cmd）后尝试逐行输入以下内容</p>
 <pre><code>pip install mkdocs -i https://pypi.tuna.tsinghua.edu.cn/simple
 pip install mkdocs-material -i https://pypi.tuna.tsinghua.edu.cn/simple
-git init
 </code></pre>
 <p>如果<em>upload.bat</em>错误，请尝试在当前文件夹<em>Git Bash Here</em>后逐句执行以下内容</p>
 <pre><code>git add .
 git commit -m &quot;commit&quot;
-git push -u git@github.com:PCTL0896/Class1-Wiki.github.io.git master
+git push -u git@github.com:PCTL0896/Class1.github.io.git main
 mkdocs gh-deploy --clean
 </code></pre>
 <p>如果还有其他问题，欢迎找KIT咨询或在<a href="https://github.com/9-4wiki/9-4wiki.github.io/issues">issues</a>页面提交issues，来时请一并带上逐行执行后的输出结果</p>
