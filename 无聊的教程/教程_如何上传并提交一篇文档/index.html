@@ -3,7 +3,7 @@
 <head>
     <meta charset="utf-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" /><link rel="canonical" href="https://Class1.github.io/%E6%97%A0%E8%81%8A%E7%9A%84%E6%95%99%E7%A8%8B/%E6%95%99%E7%A8%8B_%E5%A6%82%E4%BD%95%E4%B8%8A%E4%BC%A0%E5%B9%B6%E6%8F%90%E4%BA%A4%E4%B8%80%E7%AF%87%E6%96%87%E6%A1%A3/" />
       <link rel="shortcut icon" href="../../img/favicon.ico" />
     <title>教程 如何上传并提交一篇文档 - 2021级1班の沙雕Wiki</title>
     <link rel="stylesheet" href="../../css/theme.css" />
@@ -14,7 +14,7 @@
         // Current page data
         var mkdocs_page_name = "\u6559\u7a0b \u5982\u4f55\u4e0a\u4f20\u5e76\u63d0\u4ea4\u4e00\u7bc7\u6587\u6863";
         var mkdocs_page_input_path = "\u65e0\u804a\u7684\u6559\u7a0b\\\u6559\u7a0b_\u5982\u4f55\u4e0a\u4f20\u5e76\u63d0\u4ea4\u4e00\u7bc7\u6587\u6863.md";
-        var mkdocs_page_url = null;
+        var mkdocs_page_url = "/%E6%97%A0%E8%81%8A%E7%9A%84%E6%95%99%E7%A8%8B/%E6%95%99%E7%A8%8B_%E5%A6%82%E4%BD%95%E4%B8%8A%E4%BC%A0%E5%B9%B6%E6%8F%90%E4%BA%A4%E4%B8%80%E7%AF%87%E6%96%87%E6%A1%A3/";
       </script>
     
     <script src="../../js/jquery-3.6.0.min.js" defer></script>
@@ -117,8 +117,8 @@
 <h1 id="_3">二、拉取模板</h1>
 <p>加入组织后，请回到本地，找到一个你喜欢的文件夹，右键单击，打开<em>Git Bash</em></p>
 <p>输入以下指令：</p>
-<pre><code>git clone git@github.com:PCTL0896/Class1.github.io.git
-</code></pre>
+<div class="highlight"><pre><span></span><code>git clone git@github.com:PCTL0896/Class1.github.io.git
+</code></pre></div>
 <p>然后你就将拉取到我们的模板</p>
 <h1 id="_4">三、同步</h1>
 <h4 id="_5">如果你刚刚完成第二步，请跳过这一步</h4>
@@ -133,15 +133,15 @@
 <p>简单的运行<em>upload.bat</em>即可</p>
 <h1 id="_8">故障排查</h1>
 <p>如果<em>install.bat</em>执行错误，请打开命令提示行（Win+R, 输入cmd）后尝试逐行输入以下内容</p>
-<pre><code>pip install mkdocs -i https://pypi.tuna.tsinghua.edu.cn/simple
+<div class="highlight"><pre><span></span><code>pip install mkdocs -i https://pypi.tuna.tsinghua.edu.cn/simple
 pip install mkdocs-material -i https://pypi.tuna.tsinghua.edu.cn/simple
-</code></pre>
+</code></pre></div>
 <p>如果<em>upload.bat</em>错误，请尝试在当前文件夹<em>Git Bash Here</em>后逐句执行以下内容</p>
-<pre><code>git add .
+<div class="highlight"><pre><span></span><code>git add .
 git commit -m &quot;commit&quot;
 git push -u git@github.com:PCTL0896/Class1.github.io.git main
 mkdocs gh-deploy --clean
-</code></pre>
+</code></pre></div>
 <p>如果还有其他问题，欢迎找KIT咨询或在<a href="https://github.com/9-4wiki/9-4wiki.github.io/issues">issues</a>页面提交issues，来时请一并带上逐行执行后的输出结果</p>
               
             </div>

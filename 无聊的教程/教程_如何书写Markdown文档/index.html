@@ -3,7 +3,7 @@
 <head>
     <meta charset="utf-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" /><link rel="canonical" href="https://Class1.github.io/%E6%97%A0%E8%81%8A%E7%9A%84%E6%95%99%E7%A8%8B/%E6%95%99%E7%A8%8B_%E5%A6%82%E4%BD%95%E4%B9%A6%E5%86%99Markdown%E6%96%87%E6%A1%A3/" />
       <link rel="shortcut icon" href="../../img/favicon.ico" />
     <title>教程 如何书写Markdown文档 - 2021级1班の沙雕Wiki</title>
     <link rel="stylesheet" href="../../css/theme.css" />
@@ -14,7 +14,7 @@
         // Current page data
         var mkdocs_page_name = "\u6559\u7a0b \u5982\u4f55\u4e66\u5199Markdown\u6587\u6863";
         var mkdocs_page_input_path = "\u65e0\u804a\u7684\u6559\u7a0b\\\u6559\u7a0b_\u5982\u4f55\u4e66\u5199Markdown\u6587\u6863.md";
-        var mkdocs_page_url = null;
+        var mkdocs_page_url = "/%E6%97%A0%E8%81%8A%E7%9A%84%E6%95%99%E7%A8%8B/%E6%95%99%E7%A8%8B_%E5%A6%82%E4%BD%95%E4%B9%A6%E5%86%99Markdown%E6%96%87%E6%A1%A3/";
       </script>
     
     <script src="../../js/jquery-3.6.0.min.js" defer></script>
@@ -98,13 +98,13 @@
               
                 <p>markdown的书写是较为简单的。下面给出一些范例：</p>
 <p><strong>标题</strong>：</p>
-<pre><code># 这是一级标题
+<div class="highlight"><pre><span></span><code># 这是一级标题
 ## 这是二级标题
 ### 这是三级标题
 #### 这是四级标题
 ##### 这是五级标题
 ###### 这是六级标题
-</code></pre>
+</code></pre></div>
 <h1 id="_1">这是一级标题</h1>
 <h2 id="_2">这是二级标题</h2>
 <h3 id="_3">这是三级标题</h3>
@@ -112,80 +112,119 @@
 <h5 id="_5">这是五级标题</h5>
 <h6 id="_6">这是六级标题</h6>
 <p><strong>删除线</strong>：</p>
-<pre><code>&lt;del&gt;delete me&lt;del/&gt;
-</code></pre>
+<div class="highlight"><pre><span></span><code>&lt;del&gt;delete me&lt;del/&gt;
+</code></pre></div>
 <p><del>delete me<del/></p>
 <p><strong>加粗</strong>：</p>
-<pre><code>**Bold**
-</code></pre>
+<div class="highlight"><pre><span></span><code>**Bold**
+</code></pre></div>
 <p><strong>Bold</strong> </p>
 <p><strong>斜体</strong>：</p>
-<pre><code>*Italic*
-</code></pre>
+<div class="highlight"><pre><span></span><code>*Italic*
+</code></pre></div>
 <p><em>Italic</em></p>
 <p><strong>下划线</strong>：</p>
-<pre><code>&lt;u&gt;Underline&lt;/u&gt;
-</code></pre>
+<div class="highlight"><pre><span></span><code>&lt;u&gt;Underline&lt;/u&gt;
+</code></pre></div>
 <p><u>Underline</u></p>
 <p><strong>使用admonition</strong>：</p>
 <blockquote>
 <p>目前暂时失效</p>
 </blockquote>
-<pre><code>!!! note
+<div class="highlight"><pre><span></span><code>!!! note
     this is a tip
-</code></pre>
-<p>!!! note
-    this is a tip</p>
-<pre><code>!!! attention
+</code></pre></div>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>this is a tip</p>
+</div>
+<div class="highlight"><pre><span></span><code>!!! attention
     this is a tip
-</code></pre>
-<p>!!! attention
-    this is a tip</p>
-<pre><code>!!! caution
+</code></pre></div>
+<div class="admonition attention">
+<p class="admonition-title">Attention</p>
+<p>this is a tip</p>
+</div>
+<div class="highlight"><pre><span></span><code>!!! caution
     this is a tip
-</code></pre>
-<p>!!! caution
-    this is a tip</p>
-<pre><code>!!! danger
+</code></pre></div>
+<div class="admonition caution">
+<p class="admonition-title">Caution</p>
+<p>this is a tip</p>
+</div>
+<div class="highlight"><pre><span></span><code>!!! danger
     this is a tip
-</code></pre>
-<p>!!! danger
-    this is a tip</p>
-<pre><code>!!! error
+</code></pre></div>
+<div class="admonition danger">
+<p class="admonition-title">Danger</p>
+<p>this is a tip</p>
+</div>
+<div class="highlight"><pre><span></span><code>!!! error
     this is a tip
-</code></pre>
-<p>!!! error
-    this is a tip
-note可替换为(attention, caution, danger, error, hint,
+</code></pre></div>
+<div class="admonition error">
+<p class="admonition-title">Error</p>
+<p>this is a tip</p>
+</div>
+<p>note可替换为(attention, caution, danger, error, hint,
  important, note, tip, and warning)</p>
-<pre><code>!!! hint
+<div class="highlight"><pre><span></span><code>!!! hint
     this is a tip
-</code></pre>
-<p>!!! hint
-    this is a tip</p>
-<pre><code>!!! important
+</code></pre></div>
+<div class="admonition hint">
+<p class="admonition-title">Hint</p>
+<p>this is a tip</p>
+</div>
+<div class="highlight"><pre><span></span><code>!!! important
     this is a tip
-</code></pre>
-<p>!!! important
-    this is a tip</p>
-<pre><code>!!! note
+</code></pre></div>
+<div class="admonition important">
+<p class="admonition-title">Important</p>
+<p>this is a tip</p>
+</div>
+<div class="highlight"><pre><span></span><code>!!! note
     this is a tip
-</code></pre>
-<p>!!! note
-    this is a tip</p>
-<pre><code>!!! tip
+</code></pre></div>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>this is a tip</p>
+</div>
+<div class="highlight"><pre><span></span><code>!!! tip
     this is a tip
-</code></pre>
-<p>!!! tip
-    this is a tip</p>
-<pre><code>!!! warning
+</code></pre></div>
+<div class="admonition tip">
+<p class="admonition-title">Tip</p>
+<p>this is a tip</p>
+</div>
+<div class="highlight"><pre><span></span><code>!!! warning
     this is a tip
-</code></pre>
-<p>!!! warning
-    this is a tip</p>
+</code></pre></div>
+<div class="admonition warning">
+<p class="admonition-title">Warning</p>
+<p>this is a tip</p>
+</div>
+<p><strong>脚注</strong>：</p>
+<p>笑了，啊<sup id="fnref:1"><a class="footnote-ref" href="#fn:1">1</a></sup>，找□□剑<sup id="fnref:2"><a class="footnote-ref" href="#fn:2">2</a></sup>找到这里来了</p>
+<div class="highlight"><pre><span></span><code>笑了，啊[^1]，找□□剑[^2]找到这里来了
+
+[^1]: 大秦话特有的电子逗号，这里方便阅读已经加上了逗号
+
+[^2]: 指黑暗剑22，不存在之物
+</code></pre></div>
 <p>更多的效果可以通过HTML的语法实现，这些请自己尝试吧 xd</p>
 <p><del><sup>其实最简单的办法是搞到一个好用的Markdown编辑器</sup></del></p>
 <p><sup>最简单的办法当然是随便用什么写然后发给我们</sup></p>
+<div class="footnote">
+<hr />
+<ol>
+<li id="fn:1">
+<p>大秦话特有的电子逗号，这里方便阅读已经加上了逗号&#160;<a class="footnote-backref" href="#fnref:1" title="Jump back to footnote 1 in the text">&#8617;</a></p>
+</li>
+<li id="fn:2">
+<p>指黑暗剑22，不存在之物&#160;<a class="footnote-backref" href="#fnref:2" title="Jump back to footnote 2 in the text">&#8617;</a></p>
+</li>
+</ol>
+</div>
               
             </div>
           </div><footer>
