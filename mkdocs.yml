@@ -11,5 +11,9 @@ markdown_extensions:
   - pymdownx.details
   - pymdownx.superfences
   - footnotes
-plugiins:
+plugins:
   - search
+extra:
+    social:
+            link: core_kit@163.com
+            name: 唯一指定真实投递地址
